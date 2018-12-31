@@ -125,9 +125,9 @@ ArrayList<PVector> convexHull(ArrayList<PointVA> input){
   return stack;
 }
 
-//Calculates the distance between two points
+//Calculates the squared distance between two points
 float getDist(PVector a, PVector b){
-  float dist = sqrt(pow((b.x - a.x), 2) + pow((a.y - b.y), 2));
+  float dist = pow((b.x - a.x), 2) + pow((a.y - b.y), 2);
   return dist;
 }
 
