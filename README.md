@@ -18,7 +18,10 @@ After executing the program, it should return the computation time (ms), coordin
 
 ## Screenshots
 
-To be added...
+<p align="center">
+<img src="images/001.png" width="48%" />
+<img src="images/002.png" width="48%" />
+</p>
 
 ## Time Complexity
 
