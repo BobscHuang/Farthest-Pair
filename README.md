@@ -12,7 +12,7 @@ Simply open "Convex_Hull.pde" in the "Convex_Hull" folder through Processing and
 
 ## Instructions
 
-The program is defaulted to using an array of random points. If you'd like, you can simply change the "inputHull" variable in "setup()" to your own desired array of points (must use [PVector](https://processing.org/reference/PVector.html) class as points). 
+The program is defaulted to using an array of random points. If you'd like, you can simply change the `inputHull` variable in `setup()` to your own desired array of points (must use [PVector](https://processing.org/reference/PVector.html) class as points). 
 
 After executing the program, it should return the computation time (ms), coordinates of the two farthest points, and create a visual representaion of the convex hull (white line) and said points (green line).
 
